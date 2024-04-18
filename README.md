@@ -1,5 +1,6 @@
 # terraform-aws-vpc
 
+```hcl
 module "vpc" {
     source = "rstmvaaz/vpc/aws
     region = "us-east-2"
@@ -10,3 +11,4 @@ module "vpc" {
     ip_on_launch = true
     instance_type = "t2.micro"
 }
+```
